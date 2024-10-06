@@ -76,6 +76,7 @@ export async function generateMetadata(): Promise<Metadata> {
       slug: 'cart',
     })
   } catch (error) {
+    console.error('Error fetching page:', error);
     // don't throw an error if the fetch fails
     // this is so that we can render a static cart page for the demo
     // when deploying this template on Payload Cloud, this page needs to build before the APIs are live
