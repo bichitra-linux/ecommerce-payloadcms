@@ -29,7 +29,7 @@
     "@payloadcms/plugin-redirects": "^1.0.2",
     "@payloadcms/plugin-seo": "^1.0.15",
     "@payloadcms/plugin-stripe": "^0.0.19",
-    "@payloadcms/richtext-slate": "^1.5.2",
+    "@payloadcms/richtext-slate": "^1.0.0",
     "@stripe/react-stripe-js": "^1.16.5",
     "@stripe/stripe-js": "^1.54.2",
     "cross-env": "^7.0.3",
@@ -68,7 +68,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
-    "slate": "^0.103.0",
+    "slate": "^0.66.0",
     "ts-node": "10.9.2",
     "typescript": "^4.9.5"
   },
