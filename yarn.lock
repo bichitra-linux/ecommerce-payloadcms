@@ -5613,7 +5613,7 @@ __metadata:
     react-dom: "npm:^18.3.1"
     react-hook-form: "npm:7.53.0"
     react-router-dom: "npm:5.3.4"
-    slate: "npm:^0.66.0"
+    slate: "npm:^0.91.4"
     stripe: "npm:^10.17.0"
     ts-node: "npm:10.9.2"
     typescript: "npm:^4.9.5"
@@ -11872,7 +11872,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate@npm:0.91.4":
+"slate@npm:0.91.4, slate@npm:^0.91.4":
   version: 0.91.4
   resolution: "slate@npm:0.91.4"
   dependencies:
@@ -11880,17 +11880,6 @@ __metadata:
     is-plain-object: "npm:^5.0.0"
     tiny-warning: "npm:^1.0.3"
   checksum: 10c0/ab276dc59cf659a3b6e1e89ee239188d1c5fbe3f6c917325b4a2226fcd87b329b8ac349360289fd395d0ef4d0e916d944d1da1c42d05fcc88bee35d85ce56d00
-  languageName: node
-  linkType: hard
-
-"slate@npm:^0.66.0":
-  version: 0.66.5
-  resolution: "slate@npm:0.66.5"
-  dependencies:
-    immer: "npm:^9.0.6"
-    is-plain-object: "npm:^5.0.0"
-    tiny-warning: "npm:^1.0.3"
-  checksum: 10c0/ad3c9d46d223a144cc7c18b0d7cf03f013084d87bd03f449ae67f313e7c4d71d5cef5f4377b57f663eb03aaca3e2aecab7b2705b8ef9f78f0ba2f1589faeaf43
   languageName: node
   linkType: hard
 
