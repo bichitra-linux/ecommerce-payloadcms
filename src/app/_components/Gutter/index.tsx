@@ -1,4 +1,4 @@
-import React, { forwardRef, Ref } from 'react'
+import React, { forwardRef, Ref, ForwardRefExoticComponent, RefAttributes } from 'react'
 
 import classes from './index.module.scss'
 
@@ -10,7 +10,7 @@ type Props = {
   ref?: Ref<HTMLDivElement>
 }
 
-export const Gutter: React.FC<Props> = forwardRef<HTMLDivElement, Props>((props, ref) => {
+export const Gutter: ForwardRefExoticComponent<Omit<Props, 'ref'> & RefAttributes<HTMLDivElement>> = forwardRef<HTMLDivElement, Props>((props, ref) => {
   const { left = true, right = true, className, children } = props
 
   return (
@@ -30,4 +30,4 @@ export const Gutter: React.FC<Props> = forwardRef<HTMLDivElement, Props>((props,
   )
 })
 
-Gutter.displayName = 'Gutter'
+Gutter.displayName = 'Gutter';
