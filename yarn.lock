@@ -5613,7 +5613,7 @@ __metadata:
     react-dom: "npm:^18.3.1"
     react-hook-form: "npm:7.53.0"
     react-router-dom: "npm:5.3.4"
-    slate: "npm:0.103.0"
+    slate: "npm:^0.103.0"
     stripe: "npm:^10.17.0"
     ts-node: "npm:10.9.2"
     typescript: "npm:^4.9.5"
@@ -11879,17 +11879,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate@npm:0.103.0":
-  version: 0.103.0
-  resolution: "slate@npm:0.103.0"
-  dependencies:
-    immer: "npm:^10.0.3"
-    is-plain-object: "npm:^5.0.0"
-    tiny-warning: "npm:^1.0.3"
-  checksum: 10c0/5cde24650d71fb449382305c082310404560a73135510fc3d83bae680c5fc6e1db18347a58186f63efbc3342fd4ff4e447c134301f48683cdef312c87988ce0c
-  languageName: node
-  linkType: hard
-
 "slate@npm:0.91.4":
   version: 0.91.4
   resolution: "slate@npm:0.91.4"
@@ -11898,6 +11887,17 @@ __metadata:
     is-plain-object: "npm:^5.0.0"
     tiny-warning: "npm:^1.0.3"
   checksum: 10c0/ab276dc59cf659a3b6e1e89ee239188d1c5fbe3f6c917325b4a2226fcd87b329b8ac349360289fd395d0ef4d0e916d944d1da1c42d05fcc88bee35d85ce56d00
+  languageName: node
+  linkType: hard
+
+"slate@npm:^0.103.0":
+  version: 0.103.0
+  resolution: "slate@npm:0.103.0"
+  dependencies:
+    immer: "npm:^10.0.3"
+    is-plain-object: "npm:^5.0.0"
+    tiny-warning: "npm:^1.0.3"
+  checksum: 10c0/5cde24650d71fb449382305c082310404560a73135510fc3d83bae680c5fc6e1db18347a58186f63efbc3342fd4ff4e447c134301f48683cdef312c87988ce0c
   languageName: node
   linkType: hard
 
