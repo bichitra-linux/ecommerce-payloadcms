@@ -13,7 +13,7 @@ const Promotion = () => {
 
   const targetDate = useMemo(() => {
     const date = new Date()
-    date.setDate(date.getDate() + 7)
+    date.setDate(date.getDate() + 30)
     return date
   }, [])
 
