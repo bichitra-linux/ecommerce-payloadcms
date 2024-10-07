@@ -5179,7 +5179,7 @@ __metadata:
     nodemon: "npm:^2.0.6"
     payload: "npm:^2.0.0"
     payload-admin-bar: "npm:^1.0.6"
-    prettier: "npm:^2.7.1"
+    prettier: "npm:^2.8.8"
     qs: "npm:6.11.2"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
@@ -9731,7 +9731,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.7.1":
+"prettier@npm:^2.8.8":
   version: 2.8.8
   resolution: "prettier@npm:2.8.8"
   bin:
