@@ -22,8 +22,6 @@
     "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload"
   },
   "dependencies": {
-    "@aws-sdk/client-sso-oidc": "3.664.0",
-    "@aws-sdk/client-sts": "3.664.0",
     "@payloadcms/bundler-webpack": "^1.0.0",
     "@payloadcms/db-mongodb": "^1.0.0",
     "@payloadcms/plugin-cloud": "^3.0.0",
@@ -34,7 +32,6 @@
     "@payloadcms/richtext-slate": "^1.0.0",
     "@stripe/react-stripe-js": "^1.16.3",
     "@stripe/stripe-js": "^1.46.0",
-    "ajv": "8.14.0",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "escape-html": "^1.0.3",
@@ -47,9 +44,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "7.45.4",
     "react-router-dom": "5.3.4",
-    "stripe": "^10.2.0",
-    "vercel": "^37.6.1",
-    "webpack": "5.20.0"
+    "stripe": "^10.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
@@ -75,7 +70,7 @@
     "prettier": "^2.8.8",
     "slate": "0.91.4",
     "ts-node": "10.9.1",
-    "typescript": "4.8.4"
+    "typescript": "^4.8.4"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
