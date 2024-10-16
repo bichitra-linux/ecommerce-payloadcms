@@ -8,5 +8,6 @@ module.exports = {
     'no-console': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'perfectionist/sort-objects': ['error', { type: 'alphabetical' }],
   },
 }
