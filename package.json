@@ -11,15 +11,15 @@
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload build",
     "build:server": "tsc --project tsconfig.server.json",
     "build:next": "cross-env PAYLOAD_CONFIG_PATH=dist/payload/payload.config.js NEXT_BUILD=true node dist/server.js",
-    "build": "cross-env NODE_ENV=production yarn build:payload && yarn build:server && yarn copyfiles && yarn build:next",
+    "build": "cross-env NODE_ENV=production npm run build:payload && npm run build:server && npm run copyfiles && npm run build:next",
     "serve": "cross-env PAYLOAD_CONFIG_PATH=dist/payload/payload.config.js NODE_ENV=production node dist/server.js",
-    "eject": "yarn remove next react react-dom @next/eslint-plugin-next && ts-node eject.ts",
+    "eject": "npm run remove next react react-dom @next/eslint-plugin-next && ts-node eject.ts",
     "copyfiles": "copyfiles -u 1 \"src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png,js}\" dist/",
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload generate:types",
     "generate:graphQLSchema": "PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload generate:graphQLSchema",
     "lint": "eslint src",
     "lint:fix": "eslint --fix --ext .ts,.tsx src",
-    "start": "yarn serve",
+    "start": "npm run serve",
     "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload"
   },
   "dependencies": {
@@ -74,5 +74,5 @@
     "ts-node": "10.9.1",
     "typescript": "^4.8.4"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "npm@8.19.2"
 }
