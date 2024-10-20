@@ -26,7 +26,9 @@
     "paths": {
       "react": ["./node_modules/@types/react"],
       "@/*": ["./src/*"]
-    }
+    },
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["body-parser", "send", "serve-static"]
   },
   "include": [
     "**/*.ts",
