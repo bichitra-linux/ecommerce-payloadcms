@@ -19,7 +19,7 @@
     "generate:graphQLSchema": "cross-env NODE_OPTIONS='--max-old-space-size=1024' PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload generate:graphQLSchema",
     "lint": "cross-env NODE_OPTIONS='--max-old-space-size=1024' eslint src",
     "lint:fix": "cross-env NODE_OPTIONS='--max-old-space-size=1024' eslint --fix --ext .ts,.tsx src",
-    "start": "cross-env NODE_OPTIONS='--max-old-space-size=1024'npm run serve",
+    "start": "cross-env NODE_OPTIONS='--max-old-space-size=1024' npm run serve",
     "payload": "cross-env NODE_OPTIONS='--max-old-space-size=1024' PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload"
   },
   "dependencies": {
