@@ -36,7 +36,7 @@
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "escape-html": "^1.0.3",
-    "express": "^4.19.2",
+    "express": "^4.22.1",
     "next": "14.2.35",
     "payload": "^3.44.0",
     "payload-admin-bar": "^1.0.6",
